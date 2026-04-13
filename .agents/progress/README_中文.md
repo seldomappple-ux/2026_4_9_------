@@ -1,9 +1,15 @@
-# progress 目录说明
+﻿# progress 目录说明
 
 这里用于放连续对话、接手记录、详细过程说明。
 
-## 当前约定
+## 结构索引
 
-- `PROGRESS.md` 放总索引
-- `entries/` 可按日期或轮次继续细分详细记录
-- `ENTRY_TEMPLATE.md` 是记录模板
+- `../PROGRESS.md`：总索引，只保留当前重要记录
+- `ENTRY_TEMPLATE.md`：详细记录模板
+- `entries/`：按日期沉淀的详细记录
+
+## 使用约定
+
+- 新增有价值的过程时，先更新 `../PROGRESS.md`
+- 需要保存细节时，再新增到 `entries/`
+- 记录要尽量简洁，但要能支持下一位接手

@@ -1,27 +1,31 @@
-# AGENTS
+﻿# AGENTS
 
 这个仓库是一个图生图节点流对比测试项目。
 
-## 入口说明
+## 仓库入口
 
-- 根目录 `AGENTS.md` 是给接手 AI 和人工看的总入口
-- `.agents/` 是本项目的轻量治理目录
-- 业务素材、阶段方案、提示词、测试输出仍以现有目录为主
+- `README.md`：项目简介与基础使用说明
+- `docs/信息索引.md`：总索引，优先看这个
+- `docs/文件结构定义.md`：结构规则与命名规则
+- `docs/项目目录树.md`：当前目录展开示意
+- `.agents/RULES.md`：稳定规则
+- `.agents/PROGRESS.md`：连续对话与接手索引
+- `.agents/ITERATION_PLAN.md`：测试轮次计划
 
 ## 接手顺序
 
-接手本仓库时，建议按这个顺序阅读：
+建议按这个顺序接手：
 
-1. `README.md`
-2. `docs/文件结构定义.md`
-3. `docs/项目目录树.md`
-4. `.agents/RULES.md`
-5. `.agents/PROGRESS.md`
-6. `.agents/ITERATION_PLAN.md`
+1. `docs/信息索引.md`
+2. `.agents/RULES.md`
+3. `.agents/PROGRESS.md`
+4. `docs/文件结构定义.md`
+5. `docs/项目目录树.md`
+6. 再进入具体业务目录处理素材、提示词和测试结果
 
-## 说明
+## 当前项目特点
 
-- 这个仓库不是代码工程，重点是素材整理、提示词管理、阶段测试、结果沉淀
+- 这不是代码工程，重点是素材整理、提示词管理、阶段测试和结果沉淀
 - 原始素材正文类内容必须保持原文，不做改写
-- 长期规则改动优先写入 `.agents/RULES.md`
-- 连续对话与接手记录优先写入 `.agents/PROGRESS.md`
+- 阶段0负责预处理，阶段1到阶段3负责正式测试
+- 治理与连续对话记录尽量收敛到 `.agents/`
